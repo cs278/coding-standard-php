@@ -1,0 +1,23 @@
+{
+    "name": "cs278/coding-standard",
+    "description": "My own personal coding standard.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Smith",
+            "email": "chris@cs278.org"
+        }
+    ],
+    "require": {
+        "fabpot/php-cs-fixer": "^1.11"
+    },
+    "scripts": {
+        "cs": "php-cs-fixer fix"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cs278\\CsFixer\\": "src/CsFixer"
+        }
+    }
+}
