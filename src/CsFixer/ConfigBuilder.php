@@ -31,6 +31,7 @@ final class ConfigBuilder
     public function build()
     {
         $config = new Config('cs278', 'Chris Smith\'s personal coding standard.');
+        $config->setUsingCache(true);
         $config->level(FixerInterface::SYMFONY_LEVEL);
         $config->fixers([
             'newline_after_open_tag',
