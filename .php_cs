@@ -1,4 +1,3 @@
-
 <?php
 
 return (new Cs278\CsFixer\ConfigBuilder)
