@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "fabpot/php-cs-fixer": "^1.11"
+        "friendsofphp/php-cs-fixer": "^1.11"
     },
     "scripts": {
         "cs": "php-cs-fixer fix"
