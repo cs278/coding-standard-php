@@ -51,7 +51,9 @@ final class ConfigBuilder
             'cast_spaces' => [
                 'space' => 'single',
             ],
-            'class_attributes_separation' => true,
+            'class_attributes_separation' => [
+                'elements' => ['method', 'property'],
+            ],
             'compact_nullable_typehint' => true,
             'concat_space' => [
                 'spacing' => 'none',
