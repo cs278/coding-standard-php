@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.1 || ^8",
         "friendsofphp/php-cs-fixer": "^2.13.1"
     },
     "scripts": {
