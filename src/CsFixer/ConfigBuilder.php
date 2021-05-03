@@ -110,7 +110,6 @@ final class ConfigBuilder
             'no_trailing_comma_in_singleline_array' => true,
             'no_unneeded_control_parentheses' => true,
             'no_unneeded_curly_braces' => true,
-            'no_unneeded_final_method' => true,
             'no_unused_imports' => true,
             'no_useless_else' => true,
             'no_useless_return' => true,
@@ -191,6 +190,7 @@ final class ConfigBuilder
             ];
             $rules['php_unit_set_up_tear_down_visibility'] = true;
             $rules['void_return'] = true;
+            $rules['no_unneeded_final_method'] = true;
         }
 
         // @todo Make these opt-in?
